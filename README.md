@@ -1,2 +1,2 @@
-# Competative-Programming-CP-
+# Competative-Programming  (CP)
 Exploring logics behind code and mastering and sharpening my mind....
