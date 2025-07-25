@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+ll nCr(ll n, ll r){
+	ll res = 1;
+	for (ll i = 0; i < r; i++)
+	{
+		res = res * (n - i);
+		res = res / (i + 1);
+	}
+	return res;}
+int main(){
+    cout<<nCr(5,2)<<endl;
+
+}
